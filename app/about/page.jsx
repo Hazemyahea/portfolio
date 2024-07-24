@@ -31,6 +31,7 @@ const page = () => {
                 width={70}
                 height={70}
                 loading="lazy"
+                alt="React"
               />
             </li>
             <li>
@@ -39,6 +40,7 @@ const page = () => {
                 width={70}
                 height={30}
                 loading="lazy"
+                alt="HTML"
               />
             </li>
             <li>
@@ -47,6 +49,7 @@ const page = () => {
                 width={70}
                 height={30}
                 loading="lazy"
+                alt="css"
               />
             </li>
             <li>
@@ -55,6 +58,7 @@ const page = () => {
                 width={70}
                 height={30}
                 loading="lazy"
+                alt="js"
               />
             </li>
             <li>
@@ -63,6 +67,7 @@ const page = () => {
                 width={90}
                 height={30}
                 loading="lazy"
+                alt="next"
               />
             </li>
           </ul>
