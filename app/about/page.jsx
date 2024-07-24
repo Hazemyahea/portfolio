@@ -15,13 +15,13 @@ const page = () => {
         />
 
         <p className="p-3 border-b">
-          🐱‍🏍 I am a junior software developer with a focus on front-end
+          {` 🐱‍🏍 I am a junior software developer with a focus on front-end
           development. My skills include HTML, CSS, JavaScript, and React. I
           love problem-solving and have honed my skills by solving problems on
           LeetCode. While I don't have formal work experience in software
           development, I have built several projects that showcase my abilities
           and passion for coding. You can find details about these projects in
-          the Projects section.
+          the Projects section.`}
         </p>
         <div className=" p-1">
           <ul className=" flex p-5 gap-12  ">
@@ -68,11 +68,11 @@ const page = () => {
           </ul>
         </div>
         <p className="p-3 border-b">
-          I am continuously improving my skills by solving problems on LeetCode,
+          {`I am continuously improving my skills by solving problems on LeetCode,
           focusing on enhancing my understanding of algorithms and data
           structures. I am always striving to develop my problem-solving
           abilities, which helps me gain a deeper understanding of the field and
-          write code more efficiently.
+          write code more efficiently.`}
           <Image
             src="/images/leetcode.png"
             className="mt-3"
@@ -83,8 +83,8 @@ const page = () => {
           />
         </p>
         <p className="p-3 mt-3">
-          Additionally, I have created a couple of videos on YouTube about this
-          field—just two videos, but hey, it's a start! 😄"
+          {`Additionally, I have created a couple of videos on YouTube about this
+          field—just two videos, but hey, it's a start! 😄"`}
         </p>
         <iframe
           width="1000"

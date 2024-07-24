@@ -1,4 +1,4 @@
-const Project = ({ title, contect, Github, livelink, skills = [] }) => {
+const Project = ({ numbre, title, contect, Github, livelink, skills = [] }) => {
   return (
     <div className=" flex flex-col gap-3 p-5 border">
       <h3 className=" text-2xl font-bold">{title}</h3>
@@ -11,7 +11,10 @@ const Project = ({ title, contect, Github, livelink, skills = [] }) => {
         <ul className=" flex  gap-3">
           {skills.map((skill) => {
             return (
-              <li className=" bg-red-600 text-white p-1 uppercase rounded-md">
+              <li
+                key={numbre}
+                className=" bg-red-600 text-white p-1 uppercase rounded-md"
+              >
                 {skill}
               </li>
             );

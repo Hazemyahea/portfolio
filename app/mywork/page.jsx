@@ -10,6 +10,7 @@ const page = () => {
         livelink="https://quran-mauve-xi.vercel.app/"
         Github="https://github.com/Hazemyahea/Quran"
         skills={["React", "Tailwind"]}
+        key={1}
       />
       <Project
         title="Cooking App"
@@ -17,6 +18,7 @@ const page = () => {
         livelink="https://cooking-app-ashy.vercel.app/"
         Github="https://github.com/Hazemyahea/Cooking-App"
         skills={["Next-js", "Tailwind"]}
+        key={2}
       />
       <Project
         title="Learn Way"
@@ -24,6 +26,7 @@ const page = () => {
         livelink="https://learnway.vercel.app/"
         Github="https://github.com/Hazemyahea/learnway"
         skills={["React", "Tailwind", "supabase"]}
+        key={3}
       />
       <Project
         title="The-reddit-clone"
@@ -31,6 +34,7 @@ const page = () => {
         livelink="https://the-reddit-clone.vercel.app/"
         Github="https://github.com/Hazemyahea/The-reddit-clone"
         skills={["React", "Tailwind", "supabase"]}
+        key={4}
       />
     </div>
   );
