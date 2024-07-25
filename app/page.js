@@ -49,7 +49,7 @@ export default function Home() {
           </a>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1vHUD2KOK5gMP0aJ4OpiW7h4_JN28e8xS/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1cz1zEsp0ua4pAFJUZcWkl2TVKQuu3eNU/view?usp=sharing"
           >
             <li>
               <Image
